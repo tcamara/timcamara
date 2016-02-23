@@ -1,0 +1,222 @@
+header, nav, footer {  
+    display: block;  
+} 
+
+html {
+    height: 100%;
+    font-size: 16px;
+}
+
+body {
+    height: 100%;
+    background-color: #333333;
+    color: white;
+    font-family: "Georgia", sans-serif;
+    font-size: 1em;
+    margin: 0px;
+    padding: 0px;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -130px;
+}
+
+#head_wrapper {
+    background-color: #591414;
+    padding-bottom: 10px;
+    border-bottom: 10px solid #771a1a;
+}
+
+header {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+    nav a, nav a:active, nav a:visited {
+        color: white;
+        text-decoration: none;
+        padding: 30px;
+        font-size: 3em;
+        font-family: "League Gothic", "LeagueGothicRegular", "Comic Sans", sans-serif;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+#content {
+    padding-top: 30px;
+    border-top: 10px solid #484848;
+}
+
+    #content p, #project p {
+        width: 40em;
+        line-height: 1.5;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #content p:first-child {
+        margin-top: 40px;
+    }
+
+    #content h2, #project h3 {
+        width: 13.33em;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+        font-size: 3em;
+        font-weight: normal;
+        font-family: "League Gothic", "LeagueGothicRegular", "Comic Sans", sans-serif;
+        margin-bottom: -20px;
+    }
+    
+    #content form {
+        width: 940px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+footer {
+    display: block;
+    height: 40px;
+    width: 100%;
+    margin: 60px auto 0px auto;
+    padding-top: 20px;
+    border-top: 10px solid #771a1a;
+    font-size: .8em;
+    text-align: center;
+    color: gray;
+    background-color: #591414;
+}
+
+    footer div {
+        margin-top: -40px;
+        margin-bottom: 30px;
+        border-top: 10px solid #484848;
+    }
+    
+    .push {
+       height: 70px; 
+    }
+
+a, a:active, a:visited {
+    color: #1D71A5;
+}
+
+    a.active {
+        text-decoration: underline;
+    }
+
+    a.logo {
+        font-family: "League Gothic", "LeagueGothicRegular", "Comic Sans", sans-serif;
+        font-size: 7.5em;
+        color: white;
+        text-decoration: none;
+    }
+
+/* Contact Page */
+fieldset {
+    width: 310px;
+    background-color: #484848;
+    padding: 20px 25px 20px 20px;
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    border: 3px solid white;
+    margin: 40px auto 40px auto;
+}
+
+label {
+    display: inline-block;
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+input[type*=e], textarea {
+    width: 300px;
+    padding: 5px;
+}
+
+#submit_button {
+    text-align: center;
+    margin-top: 1em;
+}
+
+    #submit_button input {
+        padding: 5px 20px;
+        color: #fff;
+        background-color: #591414;
+        text-decoration: none;
+        font-size: 1.2em;
+        -moz-border-radius: 7px;
+        -webkit-border-radius: 7px;
+        border-radius: 7px;
+        border: 1px solid #771a1a;
+    }
+    
+#name_error, #email_error, #question_error {
+    color: white;
+    font-size: .7em;
+    font-style: italic;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/* About/Projects' Page */
+#skills_list {
+    width: 40em;
+    line-height: 1.2;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: square;
+}
+
+    #skills_list li {
+        margin-left: -20px;
+    }
+
+/* Portfolio Page */
+#portfolio {
+    width: 740px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    #portfolio img {
+        border: 10px solid #484848;
+    }
+
+    #portfolio td {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 40px 40px;
+    }
+    
+@font-face {
+	font-family: 'LeagueGothicRegular';
+	src: url('../fonts/League_Gothic-webfont.eot');
+	src: local('â˜º'), 
+            url('../fonts/League_Gothic-webfont.woff') format('woff'), 
+            url('../fonts/League_Gothic-webfont.ttf') format('truetype'), 
+            url('../fonts/League_Gothic-webfont.svg#webfont1Lb5Pdit') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

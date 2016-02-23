@@ -1,0 +1,90 @@
+/* Reset */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/* Basic */
+
+
+.wrapper:before {
+	content: "";
+	position: fixed;
+	z-index: -1;
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ), url('background.jpg') no-repeat center center fixed;
+	background-size: cover;
+	width: 100vw;
+  	height: 100vh;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);
+	transform: scale(1.07);
+}
+
+.wrapper {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	z-index: 0;
+}
+
+a, a:hover, a:visited, a:active {
+	color: white;
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+}
+
+main {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+main img {
+	width: 500px;
+}
+
+@media (max-width: 550px) {
+	main img {
+		width: 90%;
+	}
+}
+
+/* Header */
+
+header {
+	text-align: center;
+}
+
+header li {
+	padding: 16px;
+	letter-spacing: 4px;
+}
+
+
+/* Footer */
+
+footer {
+	text-align: center;
+}
+
+.social-media li {
+	margin: 10px 15px;
+}
+

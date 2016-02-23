@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://www.timcamara.com/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.timcamara.com/index.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.timcamara.com/portfolio.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.timcamara.com/contact.php</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.timcamara.com/projects/cs.php</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.timcamara.com/projects/n2.php</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.timcamara.com/projects/ab.php</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.timcamara.com/projects/n1.php</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.timcamara.com/projects/la.php</loc>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.timcamara.com/projects/bt.php</loc>
+  <changefreq>monthly</changefreq>
+</url>
+</urlset>
